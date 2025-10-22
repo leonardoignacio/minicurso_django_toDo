@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+venv.bak/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtualenv
+.local/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+# If you use collectstatic to a different folder, add it here:
+# static/
+# If you want to ignore uploads directory specifically:
+# media/uploads/
+
+# If you want to keep migrations tracked, DON'T ignore migrations folders.
+# Otherwise to ignore all migrations (not recommended) uncomment:
+# */migrations/*.py
+# */migrations/*.pyc
+
+# VSCode
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Test / coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# env files
+.env
+.env.* 
+.env.local
+local_settings.py
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+
+# Build
+build/
+dist/
+
+# Editor files
+*~ 
+*.swp
+*.swo
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+docker-compose.override.yml
+.env.docker
+**/Dockerfile.swp
+
+# Logs and runtime files
+logs/
+*.pid
+*.seed
+
+# Secret key files, credentials, and other sensitive files
+secrets.json
+credentials/
