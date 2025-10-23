@@ -3,7 +3,7 @@ certifi
 cloudinary
 decouple
 distlib
-Djang
+Django
 djangorestframework
 djangorestframework_simplejwt
 dotenv
